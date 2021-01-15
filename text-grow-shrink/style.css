@@ -1,0 +1,44 @@
+:root {
+    font-size: 16px;
+
+    --color-background: hsl(0deg, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    padding: 4rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(210deg, 30%, 8%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    box-shadow: 0 4px 6px -1px hsla(0deg, 0%, 0%, 0.1),
+        0 2px 4px -1px hsla(0deg, 0%, 0%, 0.06);
+    border-radius: 0.5rem;
+    padding: 4rem;
+    background: var(--color-background);
+    color: var(--color-primary);
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 24rem;
+}
+
+h1 {
+    font-weight: inherit;
+    text-transform: uppercase;
+    transition: all 150ms ease-in-out;
+}
