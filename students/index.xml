@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="style.css" ?>
+<?xml-model href="index.xsd" ?>
+<students>
+    <student id="">
+        <usn>1JS17IS070</usn>
+        <name>Siddharth Subramanian</name>
+        <college>JSS Academy of Technical Education</college>
+        <branch>Information Science &amp; Engineering</branch>
+        <year>2017</year>
+        <email>sidsbrmnn@gmail.com</email>
+    </student>
+    <student id="">
+        <usn>1RV17CS120</usn>
+        <name>Shyam A</name>
+        <college>RV College of Engineering</college>
+        <branch>Computer Science &amp; Engineering</branch>
+        <year>2017</year>
+        <email>shyamasv.a@gmail.com</email>
+    </student>
+    <student id="">
+        <usn>1JS17IS069</usn>
+        <name>Shwetha B</name>
+        <college>JSS Academy of Technical Education</college>
+        <branch>Information Science &amp; Engineering</branch>
+        <year>2017</year>
+        <email>shwetha.arathi@gmail.com</email>
+    </student>
+</students>
